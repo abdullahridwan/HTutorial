@@ -1,4 +1,43 @@
-.App {
+.home-page {
+  position: relative;
+  height: 100vh;
+  background-image: url('./images/kelly.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+  font-size: 7vw;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 6vh;
+    color: white;
+  }
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: white;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +74,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
