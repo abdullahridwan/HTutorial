@@ -59,7 +59,7 @@ const MyNavbar = () => {
     Etiam efficitur et orci sed condimentum. Nullam lacus orci,
     malesuada vitae ligula nec, porttitor fringilla nibh.
     Etiam eros nisl, rhoncus ac nisi aliquam, ullamcorper semper ex.
-    Interdum et malesuada fames ac ante ipsum primis in faucibuss.
+    Interdum et malesuada fames ac ante ipsum primis in faucibus.
   </p>
   const contactUsSection = <div>
     <p>
