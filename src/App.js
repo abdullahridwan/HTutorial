@@ -12,8 +12,8 @@ import Footer from './components/footer';
 import aboutAnimationData from './components/about.json';
 import contactAnimationData from './components/contact.json'
 import Button from 'react-bootstrap/Button';
-import { BsMailbox, BsFillTelephone } from "react-icons/bs";
-
+import PhoneOutlined from '@ant-design/icons/PhoneOutlined';
+import MailOutlined from '@ant-design/icons/MailOutlined';
 
 const phoneNumber = "311"
 const emailAddress = "SouljaBoy@gmail.com"
@@ -72,13 +72,13 @@ const MyNavbar = () => {
       Etiam efficitur et orci sed condimentum. Nullam lacus orci,
       malesuada vitae ligula nec, porttitor fringilla nibh.
       Etiam eros nisl, rhoncus ac nisi aliquam, ullamcorper semper ex.
-      Interdum et malesuada fames ac ante ipsum primis in faucibuss.
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.
     </p>
     <div style={{ display: 'inline' }}>
 
 
-      <MyButton buttonText="Call Us" buttonIcon={<BsFillTelephone />} buttonColor="outline-dark" linkTo={`tel:${phoneNumber}`} />
-      <MyButton buttonText="Email Us" buttonIcon={<BsMailbox />} buttonColor="outline-dark" linkTo={`mailto:${emailAddress}`} />
+      <MyButton buttonText="Call Us" buttonIcon={<PhoneOutlined />} buttonColor="outline-dark" linkTo={`tel:${phoneNumber}`} />
+      <MyButton buttonText="Email Us" buttonIcon={<MailOutlined />} buttonColor="outline-dark" linkTo={`mailto:${emailAddress}`} />
 
     </div>
   </div>
