@@ -23,7 +23,7 @@ export const BackgroundImg = styled.img`
 export const Title = styled(motion.h1)`
   font-family: Sans-serif;
   color: white;
-  font-size: 8vw;
+  font-size: 10vh;
   z-index: 1;
   margin: 0;
   white-space: nowrap;

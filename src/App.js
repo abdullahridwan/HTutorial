@@ -98,7 +98,7 @@ const MyNavbar = () => {
         </div>
       </div >
       <CustomRow lottieAnimationData={aboutAnimationData} rowTitle="About Us" rowDesc={aboutUsDesc} inverted={false} idName={"about"} size={"100%"} />
-      <CustomRow lottieAnimationData={contactAnimationData} rowTitle="Contact Us" rowDesc={contactUsSection} inverted={true} idName={"contact"} size={"80%"} />
+      <CustomRow lottieAnimationData={contactAnimationData} rowTitle="Contact Us" rowDesc={contactUsSection} inverted={false} idName={"contact"} size={"90%"} />
       <Footer />
     </>
   );
